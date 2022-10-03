@@ -20,7 +20,7 @@ pandocでmarkdownを変換できる環境
 
 「ググって普通にインストールしてくれ」で済めばいいんですが、野良の変なインストーラーをつかんでセキュリティインシデントになっても困るので方法を統一する上で **winget** を利用します。
 
-[https://learn.microsoft.com/ja-jp/windows/package-manager/winget/:embed:cite]
+https://learn.microsoft.com/ja-jp/windows/package-manager/winget/
 
 これはMicrosoft Storeで配布されているので、誰でも間違いなくインストールできます。
 しかしこれもストア内検索で変なアプリを入れてしまうリスクを避けるために環境設定スクリプトに含めちゃいます。
@@ -66,7 +66,7 @@ wingetを生かして```winget list pandoc```でも確認できます。
 html出力しただけではドキュメント読者には辛いと思うのでシンプルできれいなテンプレートを利用します。
 
 ryangrose/easy-pandoc-templates
-[https://github.com/ryangrose/easy-pandoc-templates:embed:cite]
+https://github.com/ryangrose/easy-pandoc-templates
 
 
 ```ps1
